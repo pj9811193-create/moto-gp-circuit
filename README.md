@@ -38,18 +38,122 @@ driven by race physics:
 - **Launch burnout** at GO! and **victory wheelie pumps** when you finish
 - Rider lean clips (idle / left / right) blend with your steering
 
-**ğŸ”„ Ulta Rider (v2.5) â€” ON by default:** the bike rides **BACKWARDS** for the whole race â€”
-its front points rear, start to finish (every AI bot too). Wheelies, leans and the victory
-celebration all happen in reverse riding style. Toggle it in the garage with the
-**â€œğŸ”„ Ulta Riderâ€** button; the choice is remembered on your device.
+**ğŸ”„ Ulta Rider (v2.7) â€” AUTO MODE, always on:** every bike â€” you, all 7 AI bots, online
+friends â€” rides **BACKWARDS** for the whole race, front pointing rear, start to finish.
+It's turned ON automatically at every game start (no setting to lose). The garage button
+**â€œğŸ”„ Ulta Rider: ON (auto)â€** turns it off for the current session only; the next launch
+is auto-ON again.
 
 **Bring your own 3D bike.** In the garage, tap **â€œğŸ“¦ Use your own 3D bike model (.glb)â€** and
 pick any `.glb`/`.gltf` you downloaded (e.g. high-poly bikes from [Sketchfab](https://sketchfab.com)
-â€” filter by downloadable + free licence). The game auto-scales and centres it, auto-detects
-its animation clips (idle / lean-left / lean-right when named that way, otherwise the Y¥ÉÍĞ)±¥À±½½ÁÌ¤°…ÁÁ±¥•Ìå½ÕÈ‰¥­”Ì±…ÍÌ½±½ÕÈÑ¼‰½‘å€µ…Ñ•É¥…±Ì°…¹€¨©Í…Ù•Ì¥Ğ½¸å½ÕÈ)‘•Ù¥”¨¨Í¼¥Ğ±½…‘Ì…ÕÑ½µ…Ñ¥…±±ä¹•áĞÑ¥µ”¸=¹”Ñ…ÀÍİ¥Ñ¡•Ì‰…¬Ñ¼Ñ¡”‰Õ¥±Ğµ¥¸‰¥­”¸()!¥¡•È‰¥­”±…ÍÍ•Ì…±Í¼•Ğ±½ÍÍ¥•È°µ½É”µ•Ñ…±±¥ŒÁ…¥¹ĞƒŠPÑ¡”Ñ½À±…ÍÍ•Ì±½Ü¸((ŒŒƒÂ~:¸A±…ä¥¹ÍÑ…¹Ñ±ä€¡Í¥¹±”Á±…å•È¤())ÕÍĞ½Á•¸‰¥­”µÉ…•È¹¡Ñµ±€¥¸¡É½µ”€¼‘”€¼¥É•™½àƒŠP¹¼¥¹Ñ•É¹•Ğ¹••‘•Ñ¼‰½½Ğ°…¹…™Ñ•È)Ñ¡”™¥ÉÍĞ±½…•Ù•¸Ñ¡”€Íµ½‘•°¥Ì…¡•°Í¼Ñ¡”…µ”½Á•¹Ì™Õ±±ä½™™±¥¹”¸((´A¥¬™É½´€¨¨ÄÀÀ‰¥­•Ì¨¨¥¸Ñ¡”…É…”€ ÈÀ½±½ÉÌƒ\€Ô±…ÍÍ•ÌƒŠPMÑÉ••Ğ€ÄÈÔƒŠ˜1••¹@ì•… (€¡…Ì‘¥™™•É•¹ĞÑ½ÀÍÁ••€¼…•±•É…Ñ¥½¸€¼¡…¹‘±¥¹œ¤¸(´€¨©EÕ¥¬I…”¨¨ÁÕÑÌå½Ô……¥¹ÍĞ€Ü$É¥‘•ÉÌ½¸„€Ìµ±…À¥ÉÕ¥Ğ¸(´½¹ÑÉ½±Ìè]€½ƒŠE€Ñ¡É½ÑÑ±”ƒ
-ÜM€½ƒŠM€½MÁ…•€‰É…­”ƒ
-Ü€½€½ÈƒŠA€½ƒŠI€ÍÑ••Èƒ
-ÜÍ€µ•¹Ô¸(´€¨©EÕÑ¼µÍÑ••È¥Ì=8‰ä‘•™…Õ±Ğ¨¨ƒŠPÑ¡”‰¥­”™½±±½İÌÑ¡”ÑÉ…¬‰ä¥ÑÍ•±˜…¹‰É…­•Ì™½È½É¹•ÉÌ°(€Í¼å½Ô½¹±ä¹••Ñ¡”Ñ¡É½ÑÑ±”¸]¡¥±”É¥‘¥¹œ°Ñ¡”‰¥œ€¨«Â~´ÕÑ¼è=8½=‰ÕÑÑ½¸Í¥ÑÌ…ĞÑ¡”(€‰½ÑÑ½´•¹ÑÉ”½˜Ñ¡”ÍÉ••¸¨¨ƒŠPÑ…À¥Ğ…¹äÑ¥µ”¸QÕÉ¸¥Ğ½™˜¥¸Ñ¡”µ•¹ÔÑ½¼°½ÈÑ½±”İ¥Ñ (€Q€¸MÑ••É¥¹œµ…¹Õ…±±äİ¡¥±”¥ĞÌ½¸½Ù•ÉÉ¥‘•Ì¥Ğ¥¹ÍÑ…¹Ñ±ä¸(´…µ•É„Ù¥•İÌèÁÉ•ÍÌ€Ñ¼å±”°½È­•åÌ€ÅƒŠM€Ñ€Ñ¼Á¥¬‘¥É•Ñ±äƒŠPƒÂ~:”¡…Í”ƒ
-ÜƒÂ~FI¥‘•ÈÌ•å”ƒ
-Ü(€ƒÂ~Rd	…¬€¡É•…ÈÙ¥•Ü¤ƒ
-ÜƒÂ~VÌ	½ÑÑ½´€¡É½Õ¹µ±•Ù•°…¹±”¤¸(´ƒÂ~R(€¨©I¥‘¥¹œÍ½Õ¹¨¨è„‘••À•¹¥¹”¹½Ñ”Ñ¡…ĞÉ•ÙÌİ¥Ñ å½ÕÈÑ¡É½ÑÑ±”°İ¥¹Ñ¡…ĞÉ½İÌİ¥Ñ (€ÍÁ••°…¹Ñ¥É”µÍÉÕˆİ¡•¸å½Ô½É¹•È½È‰É…­”¡…É¸%ĞÍÑ…ÉÑÌÑ¡”µ½µ•¹Ğå½ÔÑ…ÀÑ¡”…µ”(€€¡‰É½İÍ•ÉÌ¹••½¹”Ñ…À‰•™½É”…Õ‘¥¼…¸Á±…ä¤¸(´ƒÂ~:Ô€¨©	…­É½Õ¹µÕÍ¥Œ¨¨è„•¹•É…Ñ•Íå¹Ñ¡İ…Ù”±½½À€¡­¥¬°‰…ÍÌ°Á…‘Ì°•¡½¥¹œ…ÉÁ•¥¼ƒŠP(€€ÄÀÀ”]•ˆÕ‘¥¼°¹¼™¥±•Ì¹••‘•¤¸Q½±”¥Ğİ¥Ñ Ñ¡”€¨«Â~:Ô‰ÕÑÑ½¸¨¨ìƒÂ~R(M½Õ¹µÕÑ•Ì•Ù•ÉåÑ¡¥¹œ¸(´Q½Õ ‘•Ù¥•Ì•Ğ…¸½¸µÍÉ••¸€¨©©½åÍÑ¥¬¨¨è‘É…œ±•™Ğ½É¥¡ĞÑ¼ÍÑ••È°ÁÕÍ €¨©ÕÀ™½ÈÑ¡É½ÑÑ±”¨¨°(€ÁÕ±°€¨©‘½İ¸™½È‰É…­”¨¨ƒŠPÁ±ÕÌƒŠnôÑ¡É½ÑÑ±”…¹ƒÂ~nD‰É…­”‰ÕÑÑ½¹Ì¸=¸‘•Í­Ñ½Àå½Ô…¸•¹…‰±”Ñ¡”(€Ñ½Õ ½¹ÑÉ½±Ì¥¸Ñ¡”µ•¹Ô€£ŠqM¡½ÜÑ½Õ ½¹ÑÉ½±ÏŠt¤¸((ŒŒƒÂ~2@=¹±¥¹”µÕ±Ñ¥Á±…å•ÈƒŠPé•É¼Í•ÑÕÀ€¡™É•”ÁÕ‰±¥ŒÉ•±…ä¤((¨©9¼Í•ÉÙ•È¸9¼…½Õ¹Ğ¸9¼½ÍĞ¸9•Ù•ÈÍ±••ÁÌ¸¨¨Q¡”…µ”…¸É…”½¹±¥¹”Ñ¡É½Õ ™É•”(¨©ÁÕ‰±¥Œ5EQPÉ•±…åÌ¨¨€¡5E`€¼!¥Ù•5D€¼5½ÍÅÕ¥ÑÑ¼ƒŠPÑÉ¥•¥¸½É‘•È°…ÕÑ½µ…Ñ¥Œ™…¥±½Ù•È¤½Ù•È„)Í•ÕÉ”]•‰M½­•Ğ½¹¹•Ñ¥½¸¸((´]¡•¸å½Ô½Á•¸Ñ¡”…µ”™É½´„ÍÑ…Ñ¥Œ¡½ÍĞƒŠP±¥­”Ñ¡¥ÌÉ•Á¼Ì€¨©¥Ñ!ÕˆA…•Ì±¥¹¬¨¨ƒŠP¥Ğ(€€¨©…ÕÑ¼µ½¹¹•ÑÌÑ¼Ñ¡”É•±…ä‰ä¥ÑÍ•±˜¨¨¸)ÕÍĞÁÉ•ÍÌ€¨«Â~24A±…ä½¹±¥¹”¨¨¸(´=¸å½ÕÈ½İ¸½µÁÕÑ•È°ÁÉ•ÍÌ€¨«Â~24A±…ä½¹±¥¹”ƒŠP™É•”ÁÕ‰±¥ŒÉ•±…ä€¡¹¼Í•ÉÙ•È¹••‘•¤¨¨¥¸Ñ¡”(€µÕ±Ñ¥Á±…å•ÈÍ•Ñ¥½¸½˜Ñ¡”µ•¹Ô¸(´Q¡•¸¥Ğİ½É­Ì•á…Ñ±ä±¥­”‰•™½É”èå½Ô•Ğ…¸…ÕÑ½µ…Ñ¥ŒÕÍ•É¹…µ”€¡I¥‘•É|İ¬Éá€°•‘¥Ñ…‰±”¤°(€•Ù•Éå½¹”½¹±¥¹”Í¡½İÌÕÀ¥¸Ñ¡”Á±…å•È½Õ¹Ğ°å½Ô€¨©¥¹Ù¥Ñ”„™É¥•¹‰äÕÍ•É¹…µ”¨¨°Ñ¡•ä•Ğ(€€¨«ŠrP•ÁĞ€¼ƒŠrX•±¥¹”¨¨½¸Ñ¡•¥ÈÍÉ••¸°…¹½¸•ÁĞå½Ô‰½Ñ ±…¹¥¸„€¨©ÁÉ¥Ù…Ñ”€ÈµÁ±…å•È(€É…”É½½´¨¨İ¥Ñ ±¥Ù”€ÄÔ!èÁ½Í¥Ñ¥½¸Íå¹Œ°¡…Ğ…¹É•ÍÕ±ÑÌ¸()9½Ñ•ÌèÁÕ‰±¥ŒÉ•±…åÌ…É”Í¡…É•½µµÕ¹¥Ñä¥¹™É…ÍÑÉÕÑÕÉ”ƒŠPÉ•…Ğ™½È…ÍÕ…°É…•Ìİ¥Ñ ™É¥•¹‘Ì°)‰ÕĞÑ¡•ä½™™•È¹¼ÁÉ¥Ù…ä½ÈÕÁÑ¥µ”Õ…É…¹Ñ•”¸½ÈÁÉ¥Ù…Ñ”½18Á±…ä°¡½ÍĞÑ¡”Í•ÉÙ•È‰•±½Ü¸((ŒŒƒÂ~Z—¾â<=¹±¥¹”µÕ±Ñ¥Á±…å•ÈƒŠPÉÕ¸å½ÕÈ½İ¸Í•ÉÙ•È€¡½ÁÑ¥½¹…°¤()Q¡”Í•ÉÙ•Èµ½‘”¥Ù•Ìå½Ô„ÁÉ¥Ù…Ñ”±½‰‰ä½¸å½ÕÈ½İ¸µ…¡¥¹”½È„™É•”¡½ÍĞ°İ¥Ñ Ñ¡”•á…Ğ)Í…µ”ÕÍ•É¹…µ•Ì€¬™É¥•¹É•ÅÕ•ÍÑÌ™±½Ü¸Qİ¼İ…åÌÑ¼½¹¹•Ğè((´€¨©A±…ä™É½´Ñ¡”Í•ÉÙ•ÈÌ½İ¸±¥¹¬¨¨€¡¡ÑÑÀè¼½±½…±¡½ÍĞèàÜØÕ€¤ƒŠPÑ¡”…µ”…ÕÑ¼µ½¹¹•ÑÌ¥ÑÌ(€µÕ±Ñ¥Á±…å•ÈÑ¼Ñ¡…ĞÍ…µ”…‘‘É•ÍÌ¸i•É¼ÑåÁ¥¹œ¸(´=È½Á•¸…¹ä½Áä½˜Ñ¡”…µ”…¹•¹Ñ•ÈÑ¡”Í•ÉÙ•È…‘‘É•ÍÌ¥¸Ñ¡”M•ÉÙ•È‰½à¸¡ÑÑÁÌè¼¿Š™€(€…‘‘É•ÍÍ•Ì…É”…ÕÑ¼µÕÁÉ…‘•Ñ¼Í•ÕÉ”İÍÌè¼½€€¡Á±…¥¸İÌè¼½€¥Ì‰±½­•‰ä‰É½İÍ•ÉÌ½¸(€¡ÑÑÁÌÁ…•ÌƒŠPÑ¡”…µ”½¹Ù•ÉÑÌ¥Ğ™½Èå½Ô¤¸()%˜Ñ¡”Í•ÉÙ•È¥Ì½¸„€¨©™É•”¡½ÍĞÑ¡…ĞÍ±••ÁÌ¨¨€¡±¥­”I•¹‘•ÈÌ™É•”Ñ¥•È¤°Ñ¡”…µ”¹½Ü(¨©É•½¹¹•ÑÌ…ÕÑ½µ…Ñ¥…±±ä¨¨ƒŠP¥ĞÍ¡½İÌƒŠqI•½¹¹•Ñ¥¹œƒŠP™É•”Í•ÉÙ•ÉÌÑ…­”øÌÁÌÑ¼İ…­—Š›Št)…¹É•ÑÉ¥•Ì°Í¼Ñ¡”f—'7BW'6öâFò÷Vâ—BgFW"'&V²§W7Bv—G2fWr6V6öæG2à ¢222öæRÖ6Æ–6²ÆVæ6‚öâ–÷W"6ö×WFW  ¢Ò¢¥v–æF÷w3¢¢¢F÷V&ÆRÖ6Æ–6²¢¦7F'Bæ&F¢¢à¢Ò¢¤Ö2òÆ–çWƒ¢¢¢'Vâ¢¦â÷7F'Bç6†¢¢à ¥F†Bw2—BâF†R67&—B–ç7FÆÇ2v†Bw2æVVFVB†öæRF–ÖR’Â7F'G2F†R6W'fW"æB÷Vç2F†RvÖP¦–â–÷W"'&÷w6W"WFöÖF–6ÆÇ’â—BÇ6ò÷Vç2F†RæöFRæ§2F÷væÆöBvR–bæöFR—6âwB–ç7FÆÆV@§–WB(	B–ç7FÆÂ—BÂF†Vâ'VâF†R67&—Bv–âà ¢„ÖçVÂWV—fÆVçC¢çÒ–ç7FÆbbçÒ7F'F ¢Ò–÷S¢÷Vâ¢¦‡GG¢òöÆö6Æ†÷7C£ƒscR¢¢à¢Òg&–VæG2öâF†R¢§6ÖRv’Ôf’¢£¢F†W’÷Vâ¢¦‡GG¢òóÇ–÷W"ÔÄâÔ•ã£ƒscR¢¢‡F†R•—2&–çFV@¢v†VâF†R6W'fW"7F'G2’à ¢222†÷7B—BöæÆ–æRf÷"g&VR…&VæFW" £â6–vâWB‡GG3¢ò÷&VæFW"æ6öÒ(i"¢¤æWr(i"&ÇVW&–çB¢¢(i"–6²F†—2&Wò(	BF†R–æ6ÇVFV@¢&VæFW"ç–ÖÆ6öæf–wW&W2F†R'V–ÆBÂ7F'B6öÖÖæBæBg&VRÆâWFöÖF–6ÆÇ’à£"âv†Vâ—Bw2Æ—fR–÷RvWBâFG&W72Æ–¶R‡GG3¢ò÷–÷W"Öæöç&VæFW"æ6öÖ(	BWfW'–öæR§W7@¢÷Vç2F†BÆ–æ²æBF†RvÖRWFòÖ6öææV7G2à ¢…v—F‚F†Rg&VR&VÆ’&÷fRÂ&VæFW"—2æ÷r÷F–öæÂ(	B'WB—Bv—fW2–÷R–÷W"÷vâ&—fFR6W'fW"â ¢222Æ’äB†÷7BVçF—&VÇ’öââæG&ö–B†öæR…FW&×W‚ £â–ç7FÆÂ¢¥FW&×W‚¢¢g&öÒ¢¤bÔG&ö–B¢¢†‡GG3¢òöbÖG&ö–Bæ÷&r(	B¦æ÷B¢F†RÆ’7F÷&RfW'6–öâÀ¢v†–6‚—2÷WFFFVB’à£"âF÷væÆöB¢¦&–¶R×&6W"æ‡FÖÆ¢¢æB¢¦6W'fW"æ§6¢¢–çFò–÷W"†öæRw2¢¤F÷væÆöG2¢¢föÆFW ¢†g&öÒF†—2&Wòw2&VÆV6W2vRÂ÷"F†R&Wòf–ÆW2F—&V7FÇ’’à£2â÷VâFW&×W‚æB7FRF†—2öæRÆ–æS  ¢ ¢&6‚â÷7F÷&vRöF÷væÆöG2÷6WGWÖæG&ö–Bç6€¢  ¢—B6·2f÷"7F÷&vRW&Ö—76–öâ‡FÆÆ÷r’Â6÷–W2F†Rf–ÆW2Â–ç7FÆÇ2æöFRæ§2æBF†P¢6W'fW"WFöÖF–6ÆÇ’ÂæB7F'G2WfW'—F†–ærà£Bâ÷Vâ6‡&öÖRöâF†R†öæR(i"¢¦‡GG¢òöÆö6Æ†÷7C£ƒscR¢¢(	BF†RvÖR7F'G2æB—G2×VÇF—Æ–W ¢¢¦WFòÖ6öææV7G2¢¢‡–÷Rw&RÆ––æröâF†R6W'fW"—G6VÆb’à£Râg&–VæG3¢GW&âöâ–÷W"†öæRw2¢¤†÷G7÷B¢¢†÷"¦ö–âF†R6ÖRv’Ôf’’(	BF†W’÷VâF†P¢‡GG¢òóÇ†öæRÖ—ã£ƒscVFG&W72F†R67&—B&–çG2âF†Vâ–çf—FR'’W6W&æÖRæB&6Rà ¤&GFW'’F—¢6òæG&ö–BFöW6âwB¶–ÆÂF†R6W'fW"Ö–B×&6RÂ¶VWFW&×W‚–âF†R&V6VçBÖ0¦Æ—7B†FöâwB7v—R—Bv’’æB6WBæG&ö–B6WGF–æw2(i"2(i"FW&×W‚(i"&GFW'’(i"Vç&W7G&–7FVBà ¢22FW7F–æp ¦æöFR×FW7C"æ§6‡6W'fW"'Vææ–æröâ÷'BƒscR’(	B#2&÷Fö6öÂ76W'F–öç26÷fW&–ærW6W&æÖW2À¦–çf—FW2Â66WBöFV6Æ–æRÂ&—fFR&öö×2ÂR‡¢7–æ2æBF—66öææV7B6ÆVçWà
+â€” filter by downloadable + free license). The game auto-scales and centres it, auto-detects
+its animation clips (idle / lean-left / lean-right when named that way, otherwise the Yirst clip loops), applies your bike's class colour to `body` materials, and **saves it on your device** so it loads automatically next time. One tap switches back to the built-in bike.
+
+Higher bike classes also get glossier, more metallic paint â€” the top classes glow.
+
+## ğŸ® Play instantly (single player)
+
+Just open `bike-racer.html` in Chrome / Edge / Firefox â€” no internet needed to boot, and after
+the first load even the 3D model is cached, so the game opens fully offline.
+
+- Pick from **100 bikes** in the garage (20 colors Ã— 5 classes â€” Street 125 â€¦ Legend GP; each has different top speed / acceleration / handling).
+- **Quick Race** puts you against 7 AI riders on a 3-lap circuit.
+- Controls: `W`/`â†‘` throttle Â· `S`/`â†“`/`Space` brake Â· `A`/`D` or `â†`/`â†’` steer Â· `Esc` menu.
+- **Quto-steer is ON by default** â€” the bike follows the track by itself and brakes for corners,
+  so you only need the throttle. While riding, the big **ğŸ§­ Auto: ON/OFF button sits at the
+  bottom center of the screen** â€” tap it any time. Turn it off in the menu too, or toggle with
+  `T`. Steering manually while it's on overrides it instantly.
+- Camera views: press `C` to cycle, or keys `1`â€“`4` to pick directly â€” ğŸ¥ Chase Â· ğŸ‘‘ Rider's eye Â·
+ ğŸ”š Back (rear view) Â· ğŸ•³ Bottom (ground-level angle).
+- ğŸ”Š **Riding sound**: a deep engine note that revs with your throttle, wind that grows with
+  speed, and tire-scrub when you corner or brake hard. It starts the moment you tap the game
+  (browsers need one tap before audio can play).
+- ğŸµ **Background music**: a generated synthwave loop (kick, bass, pads, echoing arpeggio â€”
+  100% Web Audio, no files needed). Toggle it with the **ğŸµ button**; ğŸ”Š Sound mutes everything.
+- Touch devices get an on-screen **joystick**: drag left/right to steer, push **up for throttle**,
+  pull **down for brake** â€” plus â›½ throttle and ğŸ›‘ brake buttons. On desktop you can enable the
+  touch controls in the menu (â€œShow touch controlsâ€).
+
+## ğŸŒ Online multiplayer â€” zero setup (free public relay)
+
+**No server. No account. No cost. Never sleeps.** The game can race online through free
+**public MQTT relays** (EMQX / HiveMQ / Mosquitto â€” tried in order, automatic failover) over a
+secure WebSocket connection.
+
+- When you open the game from a static host â€” like this repo's **GitHub Pages link** â€” it
+  **auto-connects to the relay by itself**. Just press **ğŸŒ Play online**.
+- On your own computer, press **ğŸŒ Play online â€” free public relay (no server needed)** in the
+  multiplayer section of the menu.
+- Then it works exactly like before: you get an automatic username (`Rider_7k2x`, editable),
+  everyone online shows up in the player count, you **invite a friend by username**, they get
+  **âœ” Accept / âœ– Decline** on their screen, and on Accept you both land in a **private 2-player
+  race room** with live 15 Hz position sync, chat and results.
+
+Notes: public relays are shared community infrastructure â€” great for casual races with friends,
+but they offer no privacy or uptime guarantee. For private/LAN play, host the server below.
+
+## ğŸ–¥ï¸ Online multiplayer â€” run your own server (optional)
+
+The server mode gives you a private lobby on your own machine or a free host, with the exact
+same usernames + friend requests flow. Two ways to connect:
+
+- **Play from the server's own link** (`http://localhost:8765`) â€” the game auto-connects its
+  multiplayer to that same address. Zero typing.
+- Or open any copy of the game and enter the server address in the Server box. `https://â€¦`
+  addresses are auto-upgraded to secure `wss://` (plain `ws://` is blocked by browsers on
+  https pages â€” the game converts it for you).
+
+If the server is on a **free host that sleeps** (like Render's free tier), the game now
+**reconnects automatically** â€” it shows â€œReconnecting â€” free servers take ~30s to wakeâ€¦â€
+and retries, so the Yirst person to open it after a break just waits a few seconds.
+
+### One-click launch on your computer
+
+- **Windows:** double-click **`start.bat`**.
+- **Mac / Linux:** run **`./start.sh`**.
+
+That's it. The script installs what's needed (one time), starts the server and opens the game
+in your browser automatically. It also opens the Node.js download page if Node isn't installed
+yet â€” install it, then run the script again.
+
+(Manual equivalent: `npm install && npm start`)
+
+- You: open **http://localhost:8765**.
+- Friends on the **same Wi-Fi**: they open **http://<your-LAN-IP>:8765** (the IP is printed
+  when the server starts).
+
+### Host it online for free (Render)
+
+1. Sign up at https://render.com â†’ **New â†’ Blueprint** â†’ pick this repo â€” the included
+   `render.yaml` configures the build, start command and free plan automatically.
+2. When it's live you get an address like `https://your-app.onsender.com` â€” everyone just
+   open that link and the game auto-connects.
+
+(With the free relay above, Render is now optional â€” but it gives you your own private server.)
+
+### Play AND host entirely on an Android phone (Termux)
+
+1. Install **Termux** from **F-Droid** (https://f-droid.org â€” *not* the Play Store version,
+   which is outdated).
+2. Download **`bike-racer.html`** and **`server.js`** into your phone's **Downloads** folder
+  (from this repo's Releases page, or the repo files directly).
+3. Open Termux and paste this one line:
+
+   ```
+   bash ~/storage/downloads/setup-android.sh
+   ```
+
+   It asks for storage permission (tap Allow), copies the files, installs Node.js and the
+   server automatically, and starts everything.
+4. Open Chrome on the phone â†’ **http://localhost:8765** â€” the game starts and its multiplayer
+  **auto-connects** (you're playing on the server itself).
+5. Friends: turn on your phone's **Hotspot** (or join the same Wi-Fi) â€” they open the
+   `http://<phone-ip>:8765` address the script prints. Then invite by username and race.
+
+Battery tip: so Android doesn't kill the server mid-race, keep Termux in the recent-apps
+list (don't swip it away) and set Android Settings â†’ Apps â†’ Termux â†’ Battery â†’ Unrestricted.
+
+## Testing
+
+node mptest2.js` (server running on port 8765) â€” 23 protocol assertions covering usernames,
+invites, accept/decline, private rooms, 15 Hz sync and disconnect cleanup.
