@@ -2,9 +2,10 @@
 
 A browser bike-racing game in a **single HTML file** (three.js + a real GLB motorcycle model
 with rider and lean animations), with a **100-bike garage**, AI opponents, and **true online
-multiplayer with usernames and friend requests** through a tiny server you host yourself.
+multiplayer** — either through a **free public relay (no server, no account, never sleeps)**
+or through a tiny server you host yourself.
 
-The game now boots in **under a second** — the whole 3D engine is embedded in the file, and the
+The game boots in **under a second** — the whole 3D engine is embedded in the file, and the
 HD bike model downloads in the background while you're already riding (it hot-swaps in
 mid-race and is cached for instant load next time). A green **⚡ ready in X.XXs** chip on the
 menu screen shows the real measured boot time.
@@ -14,7 +15,7 @@ menu screen shows the real measured boot time.
 | File            | What it is                                                    |
 |-----------------|---------------------------------------------------------------|
 | `bike-racer.html` | The whole game. Double-click it to play (also on the Releases page). |
-| `server.js`     | Multiplayer server with usernames + friend requests.          |
+| `server.js`     | Optional multiplayer server with usernames + friend requests. |
 | `package.json`  | Node dependencies for the server.                             |
 | `start.bat`     | **One-click launcher (Windows)** — double-click it.            |
 | `start.sh`      | **One-click launcher (Mac / Linux)** — run `./start.sh`.       |
@@ -42,66 +43,67 @@ the first load even the 3D model is cached, so the game opens fully offline.
   touch controls in the menu (“Show touch controls”).
 - Click the 🔊 Sound button (bottom-right during a race) to mute the engine sound.
 
-## 🌐 Online multiplayer — usernames + friend requests
+## 🌐 Online multiplayer — zero setup (free public relay)
 
-Your username is **automatic** — the game picks one like `Rider_7k2x` the first time and
-remembers it (edit it at the top of the menu). No room codes to share anymore:
+**No server. No account. No cost. Never sleeps.** The game can race online through free
+**public MQTT relays** (EMQX / HiveMQ / Mosquitto — tried in order, automatic failover) over a
+secure WebSocket connection.
 
-1. Type your friend's **exact username** in the *Invite a friend* box → **Send request**.
-2. If they're online, **their phone immediately gets your request** — a pop-up with
-   **✔ Accept / ✖ Decline**.
-3. They tap **Accept** → you both jump into a **private 2-player race room**.
-4. Either of you hits **🏁 Start Race** — you race each other in real time (positions, laps,
-   chat and results all sync). Works with just 2 players, or invite more friends into the same room.
+- When you open the game from a static host — like this repo's **GitHub Pages link** — it
+  **auto-connects to the relay by itself**. Just press **🌍 Play online**.
+- On your own computer, press **🌍 Play online — free public relay (no server needed)** in the
+  multiplayer section of the menu.
+- Then it works exactly like before: you get an automatic username (`Rider_7k2x`, editable),
+  everyone online shows up in the player count, you **invite a friend by username**, they get
+  **✔ Accept / ✖ Decline** on their screen, and on Accept you both land in a **private 2-player
+  race room** with live 15 Hz position sync, chat and results.
 
-If the username isn't online you get “*X is not online right now*”, and if they decline you're
-told that too. Everyone who connects shows up in the online player count.
+Notes: public relays are shared community infrastructure — great for casual races with friends,
+but they offer no privacy or uptime guarantee. For private/LAN play, host the server below.
 
-### Run the server on your own computer — ONE click
+## 🖥️ Online multiplayer — run your own server (optional)
+
+The server mode gives you a private lobby on your own machine or a free host, with the exact
+same usernames + friend requests flow. Two ways to connect:
+
+- **Play from the server's own link** (`http://localhost:8765`) — the game auto-connects its
+  multiplayer to that same address. Zero typing.
+- Or open any copy of the game and enter the server address in the Server box. `https://…`
+  addresses are auto-upgraded to secure `wss://` (plain `ws://` is blocked by browsers on
+  https pages — the game converts it for you).
+
+If the server is on a **free host that sleeps** (like Render's free tier), the game now
+**reconnects automatically** — it shows “Reconnecting — free servers take ~30s to wake…”
+and retries, so the first person to open it after a break just waits a few seconds.
+
+### One-click launch on your computer
 
 - **Windows:** double-click **`start.bat`**.
 - **Mac / Linux:** run **`./start.sh`**.
 
-That's it. The script installs what's needed (one time), starts the server and
-opens the game in your browser automatically. It also opens the Node.js download
-page for you if Node isn't installed yet — install it, then run the script again.
+That's it. The script installs what's needed (one time), starts the server and opens the game
+in your browser automatically. It also opens the Node.js download page if Node isn't installed
+yet — install it, then run the script again.
 
-(Manual equivalent, if you prefer: `npm install && npm start`)
+(Manual equivalent: `npm install && npm start`)
 
-Then:
-
-- You: open **http://localhost:8765** (the server serves the game itself at `/`), or keep
-  using your copy of `bike-racer.html` with server address `ws://localhost:8765`.
-- Friends on the **same Wi-Fi**: they open `http://<your-LAN-IP>:8765` (the IP is printed
+- You: open **http://localhost:8765**.
+- Friends on the **same Wi-Fi**: they open **http://<your-LAN-IP>:8765** (the IP is printed
   when the server starts).
 
-### Host it online for free (Render) — works from phones anywhere
+### Host it online for free (Render)
 
-1. Push **all the files** in this folder to a GitHub repo.
-2. Create an account at https://render.com → **New → Blueprint** → pick your repo.
-   The included `render.yaml` configures the build, the start command and the free
-   plan automatically — nothing to type.
-3. When it's live you get an address like `https://your-app.onrender.com` — everyone just
-   pastes that into the game's Server box. It's accepted as `https://…` **or** `wss://…` —
-   the game auto-converts and always uses the secure `wss` protocol when the page itself is
-   served over https (a plain `ws://` address is blocked by browsers on https pages — the game
-   upgrades it for you automatically).
+1. Sign up at https://render.com → **New → Blueprint** → pick this repo — the included
+   `render.yaml` configures the build, start command and free plan automatically.
+2. When it's live you get an address like `https://your-app.onrender.com` — everyone just
+   opens that link and the game auto-connects.
 
-**Zero typing:** whenever you open the game from a server's own link
-(`http://localhost:8765` or `https://your-app.onrender.com`), the game
-**auto-connects its multiplayer to that same address** — you never type a server
-address at all.
+(With the free relay above, Render is now optional — but it gives you your own private server.)
 
-**Important:** you must play the game from the *server's* URL (`https://your-app.onrender.com`)
-or from a local file — not from a different https site pointing at `ws://` (the game upgrades
-that too, but your server must still allow secure WebSocket connections, which Render does).
-
-### Play AND host entirely on an Android phone (Termux) — one command
-
-Your phone can be the game server — no computer needed:
+### Play AND host entirely on an Android phone (Termux)
 
 1. Install **Termux** from **F-Droid** (https://f-droid.org — *not* the Play Store version,
-   which is outdated). Install the F-Droid app, search Termux, install.
+   which is outdated).
 2. Download **`bike-racer.html`** and **`server.js`** into your phone's **Downloads** folder
    (from this repo's Releases page, or the repo files directly).
 3. Open Termux and paste this one line:
@@ -120,8 +122,7 @@ Your phone can be the game server — no computer needed:
 Battery tip: so Android doesn't kill the server mid-race, keep Termux in the recent-apps
 list (don't swipe it away) and set Android Settings → Apps → Termux → Battery → Unrestricted.
 
-### LAN / offline
+## Testing
 
-`npm start` prints every LAN IP it finds — friends on the same Wi-Fi (or your Android
-hotspot) can play from `http://<ip>:8765` with plain `ws://`. Phones on mobile data need
-the Render (or similar) hosting above.
+`node mptest2.js` (server running on port 8765) — 23 protocol assertions covering usernames,
+invites, accept/decline, private rooms, 15 Hz sync and disconnect cleanup.

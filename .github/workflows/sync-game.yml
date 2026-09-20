@@ -1,6 +1,6 @@
 name: Sync game file from release
 
-# Downloads bike-racer.html from the v1.0 release assets and commits it into
+# Downloads bike-racer.html from the LATEST release assets and commits it into
 # the repo (also as index.html for GitHub Pages).
 on:
   workflow_dispatch:
@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download game HTML from release asset
+      - name: Download game HTML from latest release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release download v1.0 --repo "$GITHUB_REPOSITORY" --pattern bike-racer.html
+        run: gh release download --repo "$GITHUB_REPOSITORY" --pattern bike-racer.html
       - name: Publish as index.html too (GitHub Pages entry point)
         run: cp bike-racer.html index.html
       - name: Commit
@@ -23,5 +23,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add bike-racer.html index.html
           git diff --cached --quiet && { echo "No changes"; exit 0; }
-          git commit -m "chore: sync bike-racer.html from release v1.0"
+          git commit -m "chore: sync bike-racer.html from latest release"
           git push
