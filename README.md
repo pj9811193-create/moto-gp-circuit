@@ -2,7 +2,9 @@
 
 A browser bike-racing game in a **single HTML file** (three.js + a real GLB motorcycle model
 with rider and lean animations), with a **100-bike garage**, AI opponents, and **true online
-multiplayer** — either through a **free public relay (no server, no account, never sleeps)**
+multiplayer** — plus a physics-driven animation system (wheelies, stoppies, suspension dive,
+top-speed vibration, crash wobble, launch burnouts, victory celebrations) and a **custom 3D
+model loader**: drop in ANY animated `.glb` bike from the garage and it becomes your ride — either through a **free public relay (no server, no account, never sleeps)**
 or through a tiny server you host yourself.
 
 The game boots in **under a second** — the whole 3D engine is embedded in the file, and the
@@ -24,6 +26,27 @@ menu screen shows the real measured boot time.
 | `mptest2.js`    | Multiplayer protocol test suite (23 assertions).              |
 | `README.md`     | This file.                                                     |
 
+## 🎬 Animations & custom 3D models (v2.3)
+
+The game code is pure **logic + controls** — all the acting comes from the 3D model,
+driven by race physics:
+
+- **Wheelies** when you accelerate hard (faster bikes lift harder)
+- **Stoppies** under hard braking, with suspension dive and bounce-back
+- **Top-speed vibration** as you approach your bike's max
+- **Crash wobble + tyre smoke** when you slam the barriers
+- **Launch burnout** at GO! and **victory wheelie pumps** when you finish
+- Rider lean clips (idle / left / right) blend with your steering
+
+**Bring your own 3D bike.** In the garage, tap **“📦 Use your own 3D bike model (.glb)”** and
+pick any `.glb`/`.gltf` you downloaded (e.g. high-poly bikes from [Sketchfab](https://sketchfab.com)
+— filter by downloadable + free licence). The game auto-scales and centres it, auto-detects
+its animation clips (idle / lean-left / lean-right when named that way, otherwise the first
+clip loops), applies your bike's class colour to `body` materials, and **saves it on your
+device** so it loads automatically next time. One tap switches back to the built-in bike.
+
+Higher bike classes also get glossier, more metallic paint — the top classes glow.
+
 ## 🎮 Play instantly (single player)
 
 Just open `bike-racer.html` in Chrome / Edge / Firefox — no internet needed to boot, and after
@@ -33,7 +56,7 @@ the first load even the 3D model is cached, so the game opens fully offline.
   has different top speed / acceleration / handling).
 - **Quick Race** puts you against 7 AI riders on a 3-lap circuit.
 - Controls: `W`/`↑` throttle · `S`/`↓`/`Space` brake · `A`/`D` or `←`/`→` steer · `Esc` menu.
-- **Auto-steer is ON by default** — the bike follows the track by itself and brakes for corners,
+- **Quto-steer is ON by default** — the bike follows the track by itself and brakes for corners,
   so you only need the throttle. While riding, the big **🧭 Auto: ON/OFF button sits at the
   bottom centre of the screen** — tap it any time. Turn it off in the menu too, or toggle with
   `T`. Steering manually while it's on overrides it instantly.
@@ -124,7 +147,7 @@ yet — install it, then run the script again.
 5. Friends: turn on your phone's **Hotspot** (or join the same Wi-Fi) — they open the
    `http://<phone-ip>:8765` address the script prints. Then invite by username and race.
 
-Battery tip: so Android doesn't kill the server mid-race, keep Termux in the recent-apps
+Battery tip: so Android doesn't kill the server mid-race, keep Termuy in the recent-apps
 list (don't swipe it away) and set Android Settings → Apps → Termux → Battery → Unrestricted.
 
 ## Testing
