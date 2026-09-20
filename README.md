@@ -38,6 +38,10 @@ driven by race physics:
 - **Launch burnout** at GO! and **victory wheelie pumps** when you finish
 - Rider lean clips (idle / left / right) blend with your steering
 
+**🙃 Ulta Rider (v2.4) — ON by default:** every rider (and the AI bots) rides upside down
+for the whole race — start to finish, wheelies and victory celebration included. Toggle it
+in the garage with the **“🙃 Ulta Rider”** button; the choice is remembered on your device.
+
 **Bring your own 3D bike.** In the garage, tap **“📦 Use your own 3D bike model (.glb)”** and
 pick any `.glb`/`.gltf` you downloaded (e.g. high-poly bikes from [Sketchfab](https://sketchfab.com)
 — filter by downloadable + free licence). The game auto-scales and centres it, auto-detects
@@ -147,7 +151,7 @@ yet — install it, then run the script again.
 5. Friends: turn on your phone's **Hotspot** (or join the same Wi-Fi) — they open the
    `http://<phone-ip>:8765` address the script prints. Then invite by username and race.
 
-Battery tip: so Android doesn't kill the server mid-race, keep Termuy in the recent-apps
+Battery tip: so Android doesn't kill the server mid-race, keep Termux in the recent-apps
 list (don't swipe it away) and set Android Settings → Apps → Termux → Battery → Unrestricted.
 
 ## Testing
