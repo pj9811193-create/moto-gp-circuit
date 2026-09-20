@@ -14,7 +14,7 @@ jobs:
       - name: Download game HTML from latest release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release download --repo "$GITHUB_REPOSITORY" --pattern bike-racer.html
+        run: gh release download --repo "$GITHUB_REPOSITORY" --pattern bike-racer.html --clobber
       - name: Publish as index.html too (GitHub Pages entry point)
         run: cp bike-racer.html index.html
       - name: Commit
