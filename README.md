@@ -63,8 +63,9 @@ the first load even the 3D model is cached, so the game opens fully offline.
   so you only need the throttle. While riding, the big **🧭 Auto: ON/OFF button sits at the
   bottom center of the screen** — tap it any time. Turn it off in the menu too, or toggle with
   `T`. Steering manually while it's on overrides it instantly.
-- Camera views: press `C` to cycle, or keys `1`–`4` to pick directly — 🎥 Chase · 👑 Rider's eye ·
- 🔚 Back (rear view) · 🕳 Bottom (ground-level angle).
+- Camera: every race **starts in 🎥 Chase view automatically**. Press `C` to cycle, or keys `1`–`4` to pick directly anytime — 🎥 Chase · 👑 Rider's eye ·
+ 🔚 Back (rear view) · 🕳 Bottom (ground-level angle). The next race start auto-returns to Chase.
+- 💾 **All settings are stored in IndexedDB** (the durable master copy): your bike, username, auto-steer, server address, music and sound. Even if browser storage gets partially cleared, the game restores everything automatically.
 - 🔊 **Riding sound**: a deep engine note that revs with your throttle, wind that grows with
   speed, and tire-scrub when you corner or brake hard. It starts the moment you tap the game
   (browsers need one tap before audio can play).
@@ -94,7 +95,7 @@ but they offer no privacy or uptime guarantee. For private/LAN play, host the se
 
 ## 🖥️ Online multiplayer — run your own server (optional)
 
-The server mode gives you a private lobby on your own machine or a free host, with the exact
+The server mode gives you a private lobby on your own machine or a freehost, with the exact
 same usernames + friend requests flow. Two ways to connect:
 
 - **Play from the server's own link** (`http://localhost:8765`) — the game auto-connects its
