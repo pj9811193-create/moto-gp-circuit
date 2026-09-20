@@ -34,14 +34,19 @@ the first load even the 3D model is cached, so the game opens fully offline.
 - **Quick Race** puts you against 7 AI riders on a 3-lap circuit.
 - Controls: `W`/`↑` throttle · `S`/`↓`/`Space` brake · `A`/`D` or `←`/`→` steer · `Esc` menu.
 - **Auto-steer is ON by default** — the bike follows the track by itself and brakes for corners,
-  so you only need the throttle. Turn it off in the menu, or toggle anytime with `T` / the 🧭
-  button while racing. Steering manually while it's on overrides it instantly.
+  so you only need the throttle. While riding, the big **🧭 Auto: ON/OFF button sits at the
+  bottom centre of the screen** — tap it any time. Turn it off in the menu too, or toggle with
+  `T`. Steering manually while it's on overrides it instantly.
 - Camera views: press `C` to cycle, or keys `1`–`4` to pick directly — 🎥 Chase · 👁 Rider's eye ·
   🔙 Back (rear view) · 🕳 Bottom (ground-level angle).
+- 🔊 **Riding sound**: a deep engine note that revs with your throttle, wind that grows with
+  speed, and tire-scrub when you corner or brake hard. It starts the moment you tap the game
+  (browsers need one tap before audio can play).
+- 🎵 **Background music**: a generated synthwave loop (kick, bass, pads, echoing arpeggio —
+  100% Web Audio, no files needed). Toggle it with the **🎵 button**; 🔊 Sound mutes everything.
 - Touch devices get an on-screen **joystick**: drag left/right to steer, push **up for throttle**,
   pull **down for brake** — plus ⛽ throttle and 🛑 brake buttons. On desktop you can enable the
   touch controls in the menu (“Show touch controls”).
-- Click the 🔊 Sound button (bottom-right during a race) to mute the engine sound.
 
 ## 🌐 Online multiplayer — zero setup (free public relay)
 
