@@ -1,0 +1,12 @@
+# Render Blueprint — deploy Moto GP Circuit's multiplayer server in one click.
+# Push this file together with bike-racer.html, server.js and package.json to a
+# GitHub repo, then on https://render.com choose  New → Blueprint  and pick the
+# repo. Render reads this file and configures everything automatically.
+services:
+  - type: web
+    name: moto-gp-circuit
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
