@@ -41,12 +41,14 @@ driven by race physics:
 **🔄 Ulta Rider (v2.7) — AUTO MODE, always on:** every bike — you, all 7 AI bots, online
 friends — rides **BACKWARDS** for the whole race, front pointing rear, start to finish.
 It's turned ON automatically at every game start (no setting to lose). The garage button
-**“🔄 Ulta Rider: ON (auto)”** turns it off for the current session only; the next launch
+**“���� Ulta Rider: ON (auto)”** turns it off for the current session only; the next launch
 is auto-ON again.
 
 **Bring your own 3D bike.** In the garage, tap **“📦 Use your own 3D bike model (.glb)”** and
 pick any `.glb`/`.gltf` you downloaded (e.g. high-poly bikes from [Sketchfab](https://sketchfab.com)
-— filter by downloadable + free license). The game auto-scales and centres it, auto-detects
+— filter by downloadable + free license). **⚠️ Poly limit: 200,000 triangles** — heavier models
+are rejected with a message showing the count (decimate them first), and a passing model shows
+its triangle count in the success toast. The game auto-scales and centres it, auto-detects
 its animation clips (idle / lean-left / lean-right when named that way, otherwise the Yirst clip loops), applies your bike's class colour to `body` materials, and **saves it on your device** so it loads automatically next time. One tap switches back to the built-in bike.
 
 Higher bike classes also get glossier, more metallic paint — the top classes glow.
@@ -151,8 +153,8 @@ yet — install it, then run the script again.
 5. Friends: turn on your phone's **Hotspot** (or join the same Wi-Fi) — they open the
    `http://<phone-ip>:8765` address the script prints. Then invite by username and race.
 
-Battery tip: so Android doesn't kill the server mid-race, keep Termux in the recent-apps
-list (don't swip it away) and set Android Settings → Apps → Termux → Battery → Unrestricted.
+Battery tip: so Android d}esn't kill the server mid-race, keep Termux in the recent-apps
+list (don't swipe it away) and set Android Settings → Apps → Termux → Battery → Unrestricted.
 
 ## Testing
 
