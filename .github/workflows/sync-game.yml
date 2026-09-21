@@ -1,9 +1,9 @@
 name: Sync game + model from release
 
-# Downloads bike-racer.html and moto_200k.glb from the LATEST release assets
+# Downloads bike-racer.html and the bike models from the LATEST release assets
 # and commits them into the repo (the html also becomes index.html for GitHub
-# Pages; the GLB is served from the same Pages origin so the game can
-# hot-link its 200k-triangle bike model).
+# Pages; the GLBs are served from the same Pages origin so the game can
+# hot-link its 200k HD and 99k fast bike models).
 on:
   workflow_dispatch:
 permissions:
@@ -13,12 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download game HTML + 200k bike model from latest release
+      - name: Download game HTML + bike models from latest release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release download --repo "$GITHUB_REPOSITORY" --pattern bike-racer.html --clobber
           gh release download --repo "$GITHUB_REPOSITORY" --pattern moto_200k.glb --clobber || echo "no moto_200k.glb asset yet - skipping model sync"
+          gh release download --repo "$GITHUB_REPOSITORY" --pattern moto_test.glb --clobber || echo "no moto_test.glb asset yet - skipping fast model sync"
       - name: Publish as index.html too (GitHub Pages entry point)
         run: cp bike-racer.html index.html
       - name: Commit
@@ -27,6 +28,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add bike-racer.html index.html
           test -f moto_200k.glb && git add moto_200k.glb
+          test -f moto_test.glb && git add moto_test.glb
           git diff --cached --quiet && { echo "No changes"; exit 0; }
-          git commit -m "chore: sync bike-racer.html + moto_200k.glb from latest release"
+          git commit -m "chore: sync bike-racer.html + bike models from latest release"
           git push
