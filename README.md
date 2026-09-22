@@ -32,6 +32,11 @@ the first load even the 3D model is cached, so the game opens fully offline.
   ☀️ Summer · 🍂 Autumn · ❄️ Winter · 🌸 Spring,
   🌤 Clear · 🌧 Rain · ❄️ Snow · 🌫 Fog. Your choice is remembered, and in online races
   the map syncs whoever starts the race (season/weather are per-player).
+- **🌍 1.6x bigger world** — every map is much larger (2–3 km laps), with a wider view
+  distance, bigger mountains and a forest of 500 trees around the circuit.
+- **🎨 graphics upgrades** — filmic (ACES) tone mapping, red/white corner curbs, painted
+  start-grid boxes with numbers, grandstands full of crowds along the straights, a glowing
+  sun, and two tree types (pines + broadleaf) in every season colour.
 - **📷 Quality switch (fast loading)** — phones automatically load the lighter 99k-triangle
   model (≈4.3 MB, half the triangles) so the game opens and runs smoothly; desktops load the
   full 200k model. You can override it anytime: **Auto → HD (200k) → Fast (99k)** from the
